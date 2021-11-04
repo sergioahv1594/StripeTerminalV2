@@ -1,18 +1,14 @@
 import React from 'react';
-import { Button, SafeAreaView, StatusBar } from 'react-native';
-import MapView from './native/MapView';
-import RNCamera from './native/RNCamera';
-import RNShare from './native/RNShare';
+import {Button, SafeAreaView, StatusBar} from 'react-native';
+import RNStripeTerminalV2 from './native/RNStripeTerminalV2';
 
 const App = () => {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{flex: 1}}>
       <StatusBar barStyle="dark-content" />
-      {/* <MapView style={{ flex: 1 }} /> */}
-      {/* <RNCamera style={{flex: 1}} /> */}
       <Button
         title="Share"
-        onPress={() => RNShare.open({ message: 'Message to share' })}
+        onPress={() => RNStripeTerminalV2.open({message: 'Message to share'})}
       />
     </SafeAreaView>
   );
