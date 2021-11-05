@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.awesomenativemodules"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:4:5-81
+12-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:5:5-67
+13-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+14-->[com.facebook.flipper:flipper:0.54.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/28e066e2ec88363c9ea3d35ab767debf/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.54.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/28e066e2ec88363c9ea3d35ab767debf/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d0ce38535ac37f40185a0d1afec32524/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d0ce38535ac37f40185a0d1afec32524/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d0ce38535ac37f40185a0d1afec32524/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d0ce38535ac37f40185a0d1afec32524/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d0ce38535ac37f40185a0d1afec32524/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+20
+21    <application
+21-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:7:5-29:19
+22        android:name="com.awesomenativemodules.MainApplication"
+22-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:8:7-38
+23        android:allowBackup="false"
+23-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:12:7-34
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d4b8a1fd03d811dc3419ac24d2ef9a46/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:10:7-41
+27        android:label="@string/app_name"
+27-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:9:7-39
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:11:7-52
+29        android:theme="@style/AppTheme"
+29-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:13:7-38
+30        android:usesCleartextTraffic="true" > <!-- <meta-data -->
+30-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/debug/AndroidManifest.xml:7:18-53
+31        <!-- android:name="com.google.android.geo.API_KEY" -->
+32        <!-- android:value="${MAPS_API_KEY}" /> -->
+33        <activity
+33-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:17:7-27:18
+34            android:name="com.awesomenativemodules.MainActivity"
+34-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:18:9-37
+35            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+35-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:20:9-86
+36            android:label="@string/app_name"
+36-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:19:9-41
+37            android:launchMode="singleTask"
+37-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:21:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:22:9-51
+39            <intent-filter>
+39-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:23:9-26:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:24:13-65
+40-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:24:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:25:13-73
+42-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:25:23-70
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" /> <!-- Needs to be explicitly declared on P+ -->
+45-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:28:7-84
+45-->/Users/sergioherrera/Documents/ReactNativeLearn/awesome-native-modules/android/app/src/main/AndroidManifest.xml:28:17-81
+46        <uses-library
+46-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d0ce38535ac37f40185a0d1afec32524/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+47            android:name="org.apache.http.legacy"
+47-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d0ce38535ac37f40185a0d1afec32524/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+48            android:required="false" />
+48-->[com.google.android.gms:play-services-maps:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d0ce38535ac37f40185a0d1afec32524/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+49
+50        <activity
+50-->[com.google.android.gms:play-services-base:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d05b662ae245270a830201340fcc2eef/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d05b662ae245270a830201340fcc2eef/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d05b662ae245270a830201340fcc2eef/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:17.0.0] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/d05b662ae245270a830201340fcc2eef/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+54
+55        <meta-data
+55-->[com.google.maps.android:android-maps-utils:0.5] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/c48a0406dd403d9f7fd6422a011e80c1/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+56            android:name="com.google.android.gms.version"
+56-->[com.google.maps.android:android-maps-utils:0.5] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/c48a0406dd403d9f7fd6422a011e80c1/jetified-android-maps-utils-0.5/AndroidManifest.xml:9:13-58
+57            android:value="@integer/google_play_services_version" />
+57-->[com.google.maps.android:android-maps-utils:0.5] /Users/sergioherrera/.gradle/caches/transforms-2/files-2.1/c48a0406dd403d9f7fd6422a011e80c1/jetified-android-maps-utils-0.5/AndroidManifest.xml:10:13-66
+58    </application>
+59
+60</manifest>
