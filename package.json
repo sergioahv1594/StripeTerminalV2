@@ -1,7 +1,7 @@
 {
-  "name": "StripeTerminalV2",
+  "name": "stripeterminalv2",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -34,5 +34,20 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "description": "Stripe Terminal package using V2",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioahv1594/StripeTerminalV2.git"
+  },
+  "author": "Sergio Herrera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergioahv1594/StripeTerminalV2/issues"
+  },
+  "homepage": "https://github.com/sergioahv1594/StripeTerminalV2#readme"
 }

@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0309069B2733397100648FD8 /* RNStripeTerminalV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0309069A2733397100648FD8 /* RNStripeTerminalV2.m */; };
-		0309069D2733399200648FD8 /* RNStripeTerminalV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0309069C2733399200648FD8 /* RNStripeTerminalV2.swift */; };
 		030906A527333A8900648FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0309069F27333A8900648FD8 /* LaunchScreen.storyboard */; };
 		030906A627333A8900648FD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030906A027333A8900648FD8 /* Images.xcassets */; };
 		030906A727333A8900648FD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030906A127333A8900648FD8 /* AppDelegate.m */; };
@@ -16,12 +14,12 @@
 		03D577E827342D53006E2B17 /* DelegateAnnouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D577E727342D53006E2B17 /* DelegateAnnouncer.swift */; };
 		03D577EA27346BD4006E2B17 /* EventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D577E927346BD4006E2B17 /* EventEmitter.swift */; };
 		03D577EC27347384006E2B17 /* StripeTerminalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D577EB27347384006E2B17 /* StripeTerminalUtils.swift */; };
+		03D577EF273494EB006E2B17 /* RNStripeTerminalV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D577ED273494EB006E2B17 /* RNStripeTerminalV2.m */; };
+		03D577F0273494EB006E2B17 /* RNStripeTerminalV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D577EE273494EB006E2B17 /* RNStripeTerminalV2.swift */; };
 		70BA2C294817FB8D99279944 /* libPods-StripeTerminalV2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B62316C8279E0DEE1019673C /* libPods-StripeTerminalV2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0309069A2733397100648FD8 /* RNStripeTerminalV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNStripeTerminalV2.m; path = StripeTerminalV2/RNShare/RNStripeTerminalV2.m; sourceTree = "<group>"; };
-		0309069C2733399200648FD8 /* RNStripeTerminalV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNStripeTerminalV2.swift; path = StripeTerminalV2/RNShare/RNStripeTerminalV2.swift; sourceTree = "<group>"; };
 		0309069F27333A8900648FD8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = StripeTerminalV2/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		030906A027333A8900648FD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StripeTerminalV2/Images.xcassets; sourceTree = "<group>"; };
 		030906A127333A8900648FD8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = StripeTerminalV2/AppDelegate.m; sourceTree = "<group>"; };
@@ -31,6 +29,8 @@
 		03D577E727342D53006E2B17 /* DelegateAnnouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateAnnouncer.swift; sourceTree = "<group>"; };
 		03D577E927346BD4006E2B17 /* EventEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEmitter.swift; sourceTree = "<group>"; };
 		03D577EB27347384006E2B17 /* StripeTerminalUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeTerminalUtils.swift; sourceTree = "<group>"; };
+		03D577ED273494EB006E2B17 /* RNStripeTerminalV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNStripeTerminalV2.m; path = StripeTerminalV2/RNStripeTerminalV2.m; sourceTree = "<group>"; };
+		03D577EE273494EB006E2B17 /* RNStripeTerminalV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNStripeTerminalV2.swift; path = StripeTerminalV2/RNStripeTerminalV2.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* StripeTerminalV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripeTerminalV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C205FE09A1A2B855ECE7F00 /* Pods-StripeTerminalV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeTerminalV2.release.xcconfig"; path = "Target Support Files/Pods-StripeTerminalV2/Pods-StripeTerminalV2.release.xcconfig"; sourceTree = "<group>"; };
 		B62316C8279E0DEE1019673C /* libPods-StripeTerminalV2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StripeTerminalV2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,8 +61,8 @@
 				030906A227333A8900648FD8 /* Info.plist */,
 				0309069F27333A8900648FD8 /* LaunchScreen.storyboard */,
 				030906A327333A8900648FD8 /* main.m */,
-				0309069C2733399200648FD8 /* RNStripeTerminalV2.swift */,
-				0309069A2733397100648FD8 /* RNStripeTerminalV2.m */,
+				03D577ED273494EB006E2B17 /* RNStripeTerminalV2.m */,
+				03D577EE273494EB006E2B17 /* RNStripeTerminalV2.swift */,
 				BB74132625E5EB02006234BB /* StripeTerminalV2-Bridging-Header.h */,
 				03D577E727342D53006E2B17 /* DelegateAnnouncer.swift */,
 				03D577E927346BD4006E2B17 /* EventEmitter.swift */,
@@ -289,10 +289,10 @@
 			files = (
 				03D577EC27347384006E2B17 /* StripeTerminalUtils.swift in Sources */,
 				03D577E827342D53006E2B17 /* DelegateAnnouncer.swift in Sources */,
+				03D577EF273494EB006E2B17 /* RNStripeTerminalV2.m in Sources */,
 				03D577EA27346BD4006E2B17 /* EventEmitter.swift in Sources */,
-				0309069B2733397100648FD8 /* RNStripeTerminalV2.m in Sources */,
-				0309069D2733399200648FD8 /* RNStripeTerminalV2.swift in Sources */,
 				030906A927333A8900648FD8 /* main.m in Sources */,
+				03D577F0273494EB006E2B17 /* RNStripeTerminalV2.swift in Sources */,
 				030906A727333A8900648FD8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
