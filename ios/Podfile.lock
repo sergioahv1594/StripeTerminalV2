@@ -245,7 +245,7 @@ PODS:
     - React-Core (= 0.63.4)
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
-  - StripeTerminal (2.2.0)
+  - StripeTerminal (2.3.0)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -276,7 +276,7 @@ DEPENDENCIES:
   - React-RCTText (from `../node_modules/react-native/Libraries/Text`)
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - StripeTerminal (~> 2.2.0)
+  - StripeTerminal (~> 2.3.0)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -365,9 +365,9 @@ SPEC CHECKSUMS:
   React-RCTText: 5c51df3f08cb9dedc6e790161195d12bac06101c
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
-  StripeTerminal: d06c83ebcc000de142df04ad16713b08bdc0b7b9
+  StripeTerminal: c53f6bc71c11b11867992478b1806a7c6ec16c0f
   Yoga: 4bd86afe9883422a7c4028c00e34790f560923d6
 
-PODFILE CHECKSUM: 524d79048de36a5572084af0848d11ebc65d1e61
+PODFILE CHECKSUM: 0c067afc935dadbab072c2f4382790d4e0db8f80
 
 COCOAPODS: 1.11.2
